@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimpleLoginPay" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorOnPrimary">@color/on_main_color</item>
+    </style>
+
+    <style name="Theme.SimpleLoginPay" parent="Base.Theme.SimpleLoginPay" />
+</resources>

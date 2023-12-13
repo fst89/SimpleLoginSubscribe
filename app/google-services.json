@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230044620161",
+    "project_id": "simpleloginpay",
+    "storage_bucket": "simpleloginpay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230044620161:android:4638c402a7a8c68bed8480",
+        "android_client_info": {
+          "package_name": "com.ikhalaas.khan.login.pay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230044620161-5g3uh553nl02lhj3l8uva7jl7m0b9fsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKLnEcvAUini53BAhij83DHaFEKV2WPgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230044620161-5g3uh553nl02lhj3l8uva7jl7m0b9fsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
