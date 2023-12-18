@@ -1,5 +1,8 @@
 package com.ikhalaas.khan.login.pay.fragment.signInFragment
 
+import android.app.Notification.Action
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -59,6 +62,11 @@ class SignInFragment : Fragment() {
 
         binding.btnTest.setOnClickListener {
             goToSubscribeFragment()
+        }
+
+        binding.privacyPolicy.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.privacy_policy_link)))
+            startActivity(intent)
         }
 
         viewModel.signedUser.observe(viewLifecycleOwner, userObserver)

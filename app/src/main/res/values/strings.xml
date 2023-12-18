@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Dinaar Investments</string>
+    <string name="app_name">Dinaar</string>
 
-    <string name="welcome_text">Welcome to Dinaar Investments</string>
+    <string name="welcome_text">Welcome to Dinaar</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="subscribe_text">Subscribe for %s</string>
     <string name="open_link">Open WhatsApp Group</string>
+
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="privacy_policy_link">https://halalsharemarket.in/privacy-page/</string>
 </resources>
